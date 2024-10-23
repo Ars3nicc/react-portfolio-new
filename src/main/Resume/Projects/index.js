@@ -1,6 +1,7 @@
 import React from "react";
 import dgcaIMG from "../../../assets/img/banner-v2.jpg";
 import caapwebsiteIMG from "../../../assets/img/caap-website.png";
+import aiswebsiteIMG from "../../../assets/img/ais-website.png";
 function Projects() {
   return (
     <div>
@@ -8,14 +9,14 @@ function Projects() {
         Groundbreaking projects that I contributed...
       </h1>
       <div className="pt-16 grid grid-cols-1 md:grid-cols-3 gap-16 justify-evenly">
-        <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="group max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-gray-100 dark:hover:bg-gray-700">
           <img
             class="rounded-t-lg h-56 w-full object-cover object-center"
-            src="https://www.supplychain-outlook.com/media/Philippine-Airlines-Main-jpg.webp"
+            src={aiswebsiteIMG}
             alt=""
           />
           <div class="p-4">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight ">
+            <h5 class="mb-2 text-2xl md:text-3xl font-bold tracking-tight ">
               Aeronautical Information Publication
             </h5>
             <p class="mt-6 mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -50,14 +51,14 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="group max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-gray-100 dark:hover:bg-gray-700">
           <img
             class="rounded-t-lg h-56 w-full object-cover object-center"
             src={dgcaIMG}
             alt=""
           />
           <div class="p-4">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight ">
+            <h5 class="mb-2 text-2xl md:text-3xl font-bold tracking-tight ">
               DGCA 59 International Conference Website
             </h5>
             <p class="mt-6 mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -93,14 +94,14 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="group max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-gray-100 dark:hover:bg-gray-700">
           <img
             class="rounded-t-lg h-56 w-full object-cover object-center"
             src={caapwebsiteIMG}
             alt=""
           />
           <div class="p-4">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight ">
+            <h5 class="mb-2 text-2xl md:text-3xl font-bold tracking-tight ">
               CAAP Official Website
             </h5>
             <p class="mt-6 mb-3 font-normal text-gray-700 dark:text-gray-400">

@@ -2,11 +2,21 @@ import React from "react";
 import "./index.css";
 
 function AboutMe() {
-  
   return (
     <div className="flex flex-col">
-      <p className="mt-5">franzmanrique2121@gmail.com</p>
-      <p className="mt-3">(+63) 916 630 2417</p>
+      <p className="mt-5 hover:font-semibold hover:text-sky-700 transition ease-in">
+        <a href="mailto:franzmanrique2121@gmail.com">
+          franzmanrique2121@gmail.com
+        </a>
+      </p>
+      <p className="mt-3 flex items-center">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg"
+          alt="Philippine Flag"
+          style={{ width: "20px", marginRight: "8px" }}
+        />
+        (+63) 916 630 2417
+      </p>
       <div className="mt-3 flex space-x-6">
         <a
           href="https://www.linkedin.com/in/franz-ronin-manrique-4b7612242/"

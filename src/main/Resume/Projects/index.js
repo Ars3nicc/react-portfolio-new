@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div>
       <h1 className="py-8 font-semibold text-2xl md:text-3xl text-center">
-        Groundbreaking projects that I contributed...
+        Innovative projects to which I contributed...
       </h1>
       <div className="pt-16 grid grid-cols-1 md:grid-cols-3 gap-16 justify-evenly">
         <div class="group max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-transform transform hover:scale-105 hover:shadow-lg hover:bg-gray-100 dark:hover:bg-gray-700">
@@ -31,7 +31,7 @@ function Projects() {
                 href="https://ais.caap.gov.ph"
                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
-                View Website
+                Visit Website
                 <svg
                   class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
                   aria-hidden="true"
@@ -74,7 +74,7 @@ function Projects() {
                 href="https://dgca59.ph"
                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
-                View Website
+                Visit Website
                 <svg
                   class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
                   aria-hidden="true"
@@ -116,7 +116,7 @@ function Projects() {
                 href="https://caap.gov.ph"
                 class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
-                View Website
+                Visit Website
                 <svg
                   class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
                   aria-hidden="true"

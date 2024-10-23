@@ -8,9 +8,9 @@ function Experience() {
       </h1>
       <div className="flex flex-col items-center">
         <div className="overflow-y-auto h-[70vh] w-full max-w-4xl">
-          <section className="py-6 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+          <section className="py-6 px-3 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
             <h2 className="text-xl text-gray-500">September 2024 - Present</h2>
-            <div className="flex flex-col items-center md:items-start">
+            <div className="flex flex-col ">
               <h1 className="text-2xl pb-2 font-bold">
                 Senior Software Engineer
               </h1>
@@ -26,11 +26,11 @@ function Experience() {
               </article>
             </div>
           </section>
-          <section className="py-6 mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+          <section className="py-6 px-3 mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
             <h2 className="text-xl text-gray-500">
               August 2023 - September 2024
             </h2>
-            <div className="flex flex-col items-center md:items-start">
+            <div className="flex flex-col">
               <h1 className="text-2xl pb-2 font-bold">IT Consultant</h1>
               <h3 className="pb-4 text-sky-600 text-xl italic">
                 Civil Aviation of the Philippines
@@ -43,11 +43,11 @@ function Experience() {
               </article>
             </div>
           </section>
-          <section className="py-6 mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+          <section className="py-6 px-3 mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
             <h2 className="text-xl text-gray-500">
               January 2023 - August 2023
             </h2>
-            <div className="flex flex-col items-center md:items-start">
+            <div className="flex flex-col">
               <h1 className="text-2xl pb-2 font-bold">Computer Programmer</h1>
               <h3 className="pb-4 text-sky-600 text-xl italic">
                 Civil Aviation of the Philippines
@@ -61,9 +61,9 @@ function Experience() {
               </article>
             </div>
           </section>
-          <section className="py-6 mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
+          <section className="py-6 px-3 mt-5 grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
             <h2 className="text-xl text-gray-500">June 2022 - January 2023</h2>
-            <div className="flex flex-col items-center md:items-start">
+            <div className="flex flex-col">
               <h1 className="text-2xl pb-2 font-bold">
                 Junior Operations Manager
               </h1>

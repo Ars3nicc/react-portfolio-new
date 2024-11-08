@@ -1,5 +1,6 @@
 import React from "react";
-import CV from "../../assets/documents/MANRIQUE_CV.pdf"
+import CV from "../../assets/documents/MANRIQUE_CV.pdf";
+
 export default function Navbar() {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -9,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 py-4 text-center flex justify-center gap-16 md:justify-between z-50">
+    <div className="sticky top-0 py-4 text-center flex justify-center gap-16 md:justify-between z-50 ">
       <a
         className=""
         href={CV}
@@ -19,10 +20,10 @@ export default function Navbar() {
         My Résumé
       </a>
 
-      <div className="uppercase">
-        <a href="#" onClick={() => scrollToSection("about-me")}>About Me</a> / &nbsp;&nbsp; 
-        <a href="#" onClick={() => scrollToSection("services")}>Services</a> / &nbsp;&nbsp;  
-        <a href="#" onClick={() => scrollToSection("experiences")}>Experiences</a> / &nbsp;&nbsp;   
+      <div className="uppercase space-x-3">
+        <a href="#" onClick={() => scrollToSection("about-me")}>About Me /</a> 
+        <a href="#" onClick={() => scrollToSection("services")}>Services /</a>
+        <a href="#" onClick={() => scrollToSection("experiences")}>Experiences /</a>
         <a href="#" onClick={() => scrollToSection("projects")}>Projects</a> 
       </div>
     </div>

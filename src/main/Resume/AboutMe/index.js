@@ -3,8 +3,9 @@ import "./index.css";
 
 function AboutMe() {
   return (
-    <div className="flex flex-col">
-      <p className="mt-5 hover:font-semibold hover:text-sky-700 transition ease-in">
+    <div className="mt-5 flex flex-col">
+      <h2 className="py-2 italic font-thin-">Catch up with me! ❤️</h2>
+      <p className=" hover:font-semibold hover:text-sky-700 transition ease-in">
         <a href="mailto:franzmanrique2121@gmail.com">
           franzmanrique2121@gmail.com
         </a>
